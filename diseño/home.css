@@ -1,0 +1,134 @@
+body{
+    background-color: #edf39c;
+}
+h1#proyecto{
+    color: #3b2c00;
+    text-align:right ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+img#logo {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 15px 25px;
+}
+.hero {
+    position: relative;
+    background-image:url(../img/fondo1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.hero-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.4;
+    max-width: 400px;
+}
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+.texto {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.texto p {
+    font-size: 15px;
+    color: #3b2c00;
+    line-height: 1.6;
+}
+
+.imagenes {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h1#menu{
+    color: #3b2c00;
+    font-family:Arial, Helvetica, sans-serif
+}
+img#img1{
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+img#img2{
+    width: 600px;
+    height: 600px;
+    margin-right: 100px;
+}
+
+img#menu-icono{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+table#tabla-matriz{
+    border-color: rgb(149, 255, 255);
+    background-color: rgb(110, 168, 223);
+}
+img#img3{
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+img#img4{
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+}
+img#img5{
+    width: 400px;
+    height: 500px;
+    margin-right: 200px;
+}
+img#img6{
+    width: 500px;
+    height: 1200px;
+    margin-right: 100px;
+}
+p{
+    text-align: justify;
+}
+img#img0{
+    width: 700px;
+    height: 1300px;
+    margin-right: 10px;
+}
+img#img4-1{
+    width: 475px;
+    height: 350px;
+    margin-right: 100px;
+}
+img#img4-c{
+    width: 275px;
+    height: 350px;
+    margin-right: 100px;
+}
